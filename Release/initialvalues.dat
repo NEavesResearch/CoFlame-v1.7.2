@@ -1,0 +1,29 @@
+1          !IREST flag (0 = start calculation from scratch, 1 = continue from a rest.dat file)     
+-1.0        !start height of fuel tube taper. Must be less than fuel tube height. (negative for no CHT, zero for no taper)
+0.655      !initial outer radius of fuel tube (meaningless if no taper)
+0.555     !initial inner radius of fuel tube (meaningless if no taper)
+0.655      !final outer radius of fuel tube (or radius if no taper)
+0.555      !final inner radius of fuel tube (or radius if no taper)
+8.9           !inlet air (oxidizer) velocity
+3.98           !inlet fuel velocity
+300           !inlet air (oxidizer) temperature
+300           !inlet fuel temperature
+4           !species index of the first component of the fuel
+1.0           !mole fraction of the first component of the fuel
+1           !species index of the 2nd component of the fuel
+0           !mole fraction of the 2nd component of the fuel
+1           !species index of the 3rd component of the fuel
+0           !mole fraction of the 3rd component of the fuel
+1           !species index of the 4th component of the fuel
+0           !mole fraction of the 4th component of the fuel
+1           !species index of the 5th component of the fuel
+0           !mole fraction of the 5th component of the fuel
+1           !species index of the 6th component of the fuel
+0           !mole fraction of the 6th component of the fuel
+14           !species index of the first component of the oxidizer
+0.209           !mole fraction of the first component of the oxidizer
+46           !species index of the 2nd component of the oxidizer
+0.791           !mole fraction of the 2nd component of the oxidizer
+1           !species index of the 3rd component of the oxidizer
+0           !mole fraction of the 3rd component of the oxidizer
+1          !flag to print the initial solution results files
